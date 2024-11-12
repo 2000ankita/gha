@@ -1,0 +1,9 @@
+name: second-proj
+runs-on: workflow_dispatch
+
+jobs:
+  firstz_job: 
+      - name: Print multiline
+        run: | 
+            echo "hi there"
+            echo "gm"
